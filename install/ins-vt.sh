@@ -18,7 +18,7 @@ chronyc tracking -v
 date
 
 # install v2ray
-GitUser="syapik96"
+GitUser="qromzi"
 #wget https://github.com/${GitUser}/
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/go.sh 
 chmod +x go.sh
@@ -523,7 +523,7 @@ systemctl restart v2ray
 
 echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 
-GitUser="syapik96"
+GitUser="qromzi"
 # Download Script
 cd /usr/local/sbin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
