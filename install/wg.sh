@@ -4,7 +4,7 @@
 # Centos 7 & 8 64bit 
 # Mod by SL
 # ==================================================
-GitUser="syapik96"
+GitUser="qromzi"
 #wget https://github.com/${GitUser}/
 
 # Check OS version
