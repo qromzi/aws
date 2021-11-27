@@ -3,7 +3,7 @@
 # 
 # ==================================================
 
-GitUser="syapik96"
+GitUser="qromzi"
 #wget https://github.com/${GitUser}/
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -103,13 +103,13 @@ echo "echo VPN Panel Manager : menu" >> .profile
 # install webserver
 apt -y install nginx
 cd
-GitUser="syapik96"
+GitUser="qromzi"
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/qromzi/aws/main/nginx.conf"
 mkdir -p /home/vps/public_html
 wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/${GitUser}/aws/main/lain2/TEST.html"
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/syapik96/aws/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/qromzi/aws/main/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn
@@ -220,7 +220,7 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
 #OpenVPN
-GitUser="syapik96"
+GitUser="qromzi"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
@@ -283,7 +283,7 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-GitUser="syapik96"
+GitUser="qromzi"
 # download script
 cd /usr/local/sbin
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh"
