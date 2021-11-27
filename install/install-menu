@@ -1,6 +1,6 @@
 #!bin/bash
 
-GitUser="syapik96"
+GitUser="qromzi
 # location 
 cd /usr/local/sbin
 # hapus yang terdahulu elak conflik 
