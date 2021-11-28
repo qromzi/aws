@@ -53,7 +53,7 @@ case $v2ray in
     exit
     ;;
     x)
-    sudo -i
+     # comment out sudo -i
     exit
     ;; #line 58 unexepcted error
     echo -e "${red}Please enter an correct number${NC}"
