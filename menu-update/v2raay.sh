@@ -1,4 +1,5 @@
 #!/bin/bash
+
 clear
 red='\e[1;31m'
 green='\e[0;32m'
@@ -6,16 +7,17 @@ NC='\e[0m'
 bl='\e[36;1m'
 bd='\e[1m'
 
-figlet "Panel V2RAY" | lolcat
 echo -e ""
+figlet "Panel V2Ray" | lolcat
+echo ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
-echo -e " ║            Section  V2RAY             ║" | lolcat
+echo -e " ║                V2Ray                  ║"   | lolcat                
 echo -e " ╠═══════════════════════════════════════╝" | lolcat
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m 1$bl]\e[m$bd Create Vmess Websocket Account"
-echo -e " $bd║\e[m 2$bl]\e[m$bd Delete Vmess Websocket Account"
-echo -e " $bd║\e[m 3$bl]\e[m$bd Renew Vmess Account"
-echo -e " $bd║\e[m 4$bl]\e[m$bd Check User Login Vmess"
+echo -e " $bd║\e[m 1$bl]\e[m$bd Create V2Ray Websocket Account"
+echo -e " $bd║\e[m 2$bl]\e[m$bd Deleting V2Ray Websocket Account"
+echo -e " $bd║\e[m 3$bl]\e[m$bd Renew V2Ray Account "
+echo -e " $bd║\e[m 4$bl]\e[m$bd Check User Login V2Ray"
 echo -e " $bd║\e[m"
 echo -e " ║      0 ] Menu      x ] Exit" |  lolcat              
 echo -e " ║" | lolcat
@@ -23,7 +25,7 @@ echo -e " ╠══════════════════════�
 echo -e " ║    COPYRIGHT 2021 OnePieceVPN Inc     ║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
-read -p "    Please select an option :  "  v2ray
+read -p "     Please select an option :  "  vless
 echo -e "\e[0m"
 case $v2ray in
     1)
