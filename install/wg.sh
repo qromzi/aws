@@ -90,11 +90,11 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/${GitUser}/qromzi/main/tambah/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/${GitUser}/qromzi/main/hapus/delwg.sh"
-wget -O cekwg "https://raw.githubusercontent.com/${GitUser}/qromzi/main/cekwg.sh"
-wget -O xp-wg "https://raw.githubusercontent.com/${GitUser}/qromzi/main/xp-wg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/${GitUser}/qromzi/main/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/${GitUser}/qromzi/aws/main/tambah/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/${GitUser}/qromzi/aws/main/hapus/delwg.sh"
+wget -O cekwg "https://raw.githubusercontent.com/${GitUser}/qromzi/aws/main/cekwg.sh"
+wget -O xp-wg "https://raw.githubusercontent.com/${GitUser}/qromzi/aws/main/xp-wg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/${GitUser}/qromzi/aws/main/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x cekwg
