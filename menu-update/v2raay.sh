@@ -57,7 +57,6 @@ case $v2ray in
     sudo -i
     exit
     ;;
-    *)
     echo -e "${red}Please enter an correct number${NC}"
     sleep 2
     clear
