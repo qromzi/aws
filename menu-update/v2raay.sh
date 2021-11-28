@@ -1,12 +1,11 @@
 #!/bin/bash
-
+clear
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 bl='\e[36;1m'
 bd='\e[1m'
 
-clear
 figlet "Panel V2RAY" | lolcat
 echo -e ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
@@ -50,9 +49,6 @@ case $v2ray in
     0)
     clear
     menu
-    exit
-    ;;
-    x)
     exit
     ;;
     x)
