@@ -53,13 +53,12 @@ case $v2ray in
     exit
     ;;
     x)
-     # comment out sudo -i
     exit
-    ;; #line 58 unexepcted error
-    echo -e "${red}Please enter an correct number${NC}"
-    sleep 2
-    clear
-    v2raay
-    exit
+    ;;
+    x)
+    menu
+    ;;
+    *)
+    echo "Please enter an correct number"
     ;;
 esac
