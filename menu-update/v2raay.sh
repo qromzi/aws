@@ -18,8 +18,8 @@ echo -e " $bd║\e[m 2$bl]\e[m$bd Delete Vmess Websocket Account"
 echo -e " $bd║\e[m 3$bl]\e[m$bd Renew Vmess Account"
 echo -e " $bd║\e[m 4$bl]\e[m$bd Check User Login Vmess"
 echo -e " $bd║\e[m"
-echo -e " $bd║\e[m   0 $bl]\e[m$bd MENU    x $bl]\e[m$bd Exit"
-echo -e " $bd║\e[m"
+echo -e " ║      0 ] Menu      x ] Exit" |  lolcat              
+echo -e " ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╗" | lolcat
 echo -e " ║    COPYRIGHT 2021 OnePieceVPN Inc     ║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
