@@ -56,9 +56,14 @@ case $v2ray in
     exit
     ;;
     x)
-    menu
+    sudo -i
+    exit
     ;;
     *)
-    echo "Please enter an correct number"
+    echo -e "${red}Please enter an correct number${NC}"
+    sleep 2
+    clear
+    v2raay
+    exit
     ;;
 esac
