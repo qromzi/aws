@@ -25,7 +25,7 @@ echo -e " ╠══════════════════════�
 echo -e " ║    COPYRIGHT 2021 OnePieceVPN Inc     ║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
-read -p "     Please select an option :  "  vless
+read -p "     Please select an option :  "  v2ray
 echo -e "\e[0m"
 case $v2ray in
     1)
@@ -57,6 +57,7 @@ case $v2ray in
     sudo -i
     exit
     ;;
+    *)
     echo -e "${red}Please enter an correct number${NC}"
     sleep 2
     clear
