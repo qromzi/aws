@@ -8,7 +8,7 @@ bd='\e[1m'
 
 clear
 figlet "Panel V2RAY" | lolcat
-echo ""
+echo -e ""
 echo -e " ╔═══════════════════════════════════════╗" | lolcat
 echo -e " ║            Section  V2RAY             ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╝" | lolcat
