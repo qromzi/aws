@@ -55,7 +55,7 @@ case $v2ray in
     x)
     sudo -i
     exit
-    ;;
+    ;; #line 58 unexepcted error
     echo -e "${red}Please enter an correct number${NC}"
     sleep 2
     clear
