@@ -232,7 +232,7 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 cd /etc/openvpn
 cat > /etc/openvpn/client-udp-1194.ovpn <<-END
 ############## WELCOME TO ###############
-########## syapik96 ###########
+########## Qromzi ###########
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
